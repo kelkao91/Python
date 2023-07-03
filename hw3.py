@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#1
-
-
-# In[5]:
-
-
 #2
 def make_length_wordcount(filename):
     infile = open(filename)
@@ -21,10 +9,6 @@ def make_length_wordcount(filename):
         else:
             length_counter[len(word)] = 1
     return length_counter
-
-
-# In[53]:
-
 
 #3 
 def make_word_count(file):
@@ -41,10 +25,6 @@ def make_word_count(file):
             counter1[word] = 1
     return counter1
 
-
-# In[6]:
-
-
 #3
 def make_word_count(filename):
     infile = open(filename)
@@ -56,9 +36,6 @@ def make_word_count(filename):
         else :
             word_counter[(word)] = 1
     return word_counter
-
-
-# In[24]:
 
 
 #4
@@ -76,28 +53,15 @@ def analyze_text(filename):
     infile.close()
 
 
-# In[20]:
-
-
 #5a
 analyze_text('nasdaq.txt')
-
-
-# In[21]:
-
 
 #5b
 analyze_text('raven.txt')
 
-
-# In[22]:
-
-
 #5c
 analyze_text('frankenstein.txt')
 
-
-# In[ ]:
 
 
 
